@@ -19,7 +19,7 @@ public class Solution {
             heights = parseInput(heightsInput);
             output(isSorted(heights));
         } catch (NumberFormatException | NullPointerException | ArrayIndexOutOfBoundsException ex) {
-            output(false);
+            System.out.println(ex);
         }
     }
 
