@@ -18,7 +18,7 @@ public class Solution {
         try {
             heights = parseInput(heightsInput);
             output(isSorted(heights));
-        } catch (NumberFormatException | NullPointerException ex) {
+        } catch (NumberFormatException | NullPointerException | ArrayIndexOutOfBoundsException ex) {
             output(false);
         }
     }
