@@ -1,4 +1,4 @@
-##[Palindrome Number](https://leetcode.com/problems/palindrome-number/)
+##[9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)
 
 Given an integer `x`, return `true` _if `x` is a [palindrome](## "An integer is a palindrome when it reads the same 
 forward and backward. For example, 121 is a palindrome while 123 is not."), and `false` otherwise._
@@ -25,4 +25,4 @@ Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 ``` 
 
 **Constraints:**
-- `-231 <= x <= 231 - 1`
+- `-2^31 <= x <= 2^31 - 1`
